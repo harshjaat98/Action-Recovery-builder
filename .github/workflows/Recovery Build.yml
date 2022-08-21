@@ -14,15 +14,15 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/SakthivelNadar/android_recovery_micromax_E7746'
+        default: 'https://github.com/harshjaat98/E7746-Recovery-Tree'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'android-10'
+        default: 'android-10.0'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/Micromax/E7746'
+        default: 'device/micromax/E7746'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_E7746'
+        default: 'omni_E7746'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
