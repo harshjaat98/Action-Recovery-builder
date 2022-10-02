@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/harshjaat98/E7746-Recovery-Tree'
+        default: 'https://github.com/harshjaat98/android_device_realme_RMX2001-pbrp'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
